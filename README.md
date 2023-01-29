@@ -9,3 +9,9 @@ Google sheet formuale (full link is placed in cell A1):
 ```
 =REGEXREPLACE(REGEXEXTRACT(A1, "(?i)^(?:https?:\/\/)?(?:www\.)?([^\/]+)/?"),"\..*","") 
 ```
+
+#### Further reading/Next TODO
+- https://www.rfc-editor.org/rfc/rfc3986#appendix-B
+- https://regex101.com/r/ibVctF/1
+- https://stackoverflow.com/questions/736513/how-do-i-parse-a-url-into-hostname-and-path-in-javascript
+- https://gist.github.com/metafeather/202974
